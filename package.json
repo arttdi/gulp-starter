@@ -1,0 +1,39 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villainrox/template.git"
+  },
+  "author": "Dima Troshkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villainrox/template/issues"
+  },
+  "homepage": "https://github.com/villainrox/template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-webp": "^4.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
